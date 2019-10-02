@@ -4,7 +4,7 @@
     <label>Performance Analysis</label>
     <label lang="de">Performance Analyse</label>
 
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <copyright>(c) by Die Shopwehr</copyright>
     <license>MIT</license>
     <link>https://shopwehr.de</link>
@@ -14,6 +14,11 @@
 
     <description>This extension is analysing your Shopware and server configuration for giving recommendations and information to optimize the general shop performance.</description>
     <description lang="DE">Diese Erweiterung analysiert Ihre Shopware- und Serverkonfiguration, um auf dieser Grundlage Empfehlungen und Informationen für die Optimierung der Shop-Performance bereitzustellen.</description>
+
+    <changelog version="1.1.1">
+        <changes lang="de">Fixed: MySQL Access violation</changes>
+        <changes lang="en">Fixed: MySQL Access violation</changes>
+    </changelog>
 
     <changelog version="1.1.0">
         <changes lang="de"><![CDATA[Feature: Auswertung fehlerhafter Hauptvariantenzuordnung<br/>Feature: Auswertung älterer abgebrochener Bestellungen]]></changes>

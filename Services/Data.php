@@ -116,7 +116,7 @@ WHERE d.id IS NULL;');
      * @return false|string|null
      */
     protected function oldCancelledBaskets($interval = 90) {
-        $result = Shopware()->Db()->fetchOne('SELECT COUNT(id) FROM shopware.s_order WHERE ordernumber = 0 AND ordertime < (current_date() - interval ? day);', array($interval));
+        $result = Shopware()->Db()->fetchOne('SELECT COUNT(id) FROM s_order WHERE ordernumber = 0 AND ordertime < (current_date() - interval ? day);', array($interval));
 
         return $result;
     }
