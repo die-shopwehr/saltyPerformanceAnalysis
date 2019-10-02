@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>Performance Analysis</label>
+    <label lang="de">Performance Analyse</label>
+
+    <version>1.1.0</version>
+    <copyright>(c) by Die Shopwehr</copyright>
+    <license>MIT</license>
+    <link>https://shopwehr.de</link>
+    <author>Die Shopwehr</author>
+
+    <compatibility minVersion="5.2.0" />
+
+    <description>This extension is analysing your Shopware and server configuration for giving recommendations and information to optimize the general shop performance.</description>
+    <description lang="DE">Diese Erweiterung analysiert Ihre Shopware- und Serverkonfiguration, um auf dieser Grundlage Empfehlungen und Informationen für die Optimierung der Shop-Performance bereitzustellen.</description>
+
+    <changelog version="1.1.0">
+        <changes lang="de"><![CDATA[Feature: Auswertung fehlerhafter Hauptvariantenzuordnung<br/>Feature: Auswertung älterer abgebrochener Bestellungen]]></changes>
+        <changes lang="en"><![CDATA[Feature: missing main variants<br/>Feature: outdated cancelled baskets]]></changes>
+    </changelog>
+
+    <changelog version="1.0.3">
+        <changes lang="de">Fixed: layout.tpl-Konflikte mit anderen Modulen</changes>
+        <changes lang="en">Fixed: layout.tpl conflicts</changes>
+    </changelog>
+
+    <changelog version="1.0.2">
+        <changes lang="de">Fixed: Bootstrap-Versionskonflikte mit anderen Modulen</changes>
+        <changes lang="en">Fixed: Bootstrap version conflicts</changes>
+    </changelog>
+    <changelog version="1.0.1">
+        <changes lang="de">Elastic-Search-Empfehlung angepasst</changes>
+        <changes lang="en">Elastic search recommendation marked as info</changes>
+    </changelog>
+    <changelog version="1.0.0">
+        <changes lang="de">Erste Veröffentlichung</changes>
+        <changes lang="en">Initial Release</changes>
+    </changelog>
+</plugin>
