@@ -55,6 +55,7 @@ class Data extends Requirements implements PerformanceDataInterface {
 
             SELECT ordernumber, COUNT(ordernumber) AS anzahl
 FROM s_order
+WHERE ordernumber != 0
 GROUP BY ordernumber
 HAVING ( COUNT(ordernumber) > 1 )
 ) sub');
